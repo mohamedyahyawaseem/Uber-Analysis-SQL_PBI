@@ -50,16 +50,18 @@ The dataset, inspired by Uber's operations, contains comprehensive information a
 
 ### 3. **Interactive Dashboard in Power BI Desktop**
 - **Data Import**: Connected Power BI Desktop to the processed SQL dataset for visualization.
+- **Filter Method Implementation**:
+  - Applied filters in Power BI to enable users to dynamically explore data by:
+    - **Time Period**: Filter rides by specific dates, weeks, or months.
+    - **Vehicle Type**: Analyze trends for specific categories such as bikes, sedans, or SUVs.
+    - **Booking Status**: Isolate insights for completed, canceled, or pending bookings.
+    - **Customer or Driver Ratings**: Drill down into rides with low or high ratings.
 - **Dashboard Features**:
   - **Booking Status Overview**: A visual breakdown of completed, canceled, and pending rides.
   - **Customer and Driver Ratings Trends**: Distribution and trends over time.
   - **Revenue and Distance Insights**: Total revenue by vehicle type and ride distance metrics.
   - **Cancellation Analysis**: Reasons and patterns for ride cancellations.
   - **Payment Method Preferences**: Analysis of customer payment behaviors.
-- **Interactivity**: Implemented slicers and filters for dynamic exploration by:
-  - Time period.
-  - Vehicle type.
-  - Booking status or cancellation reasons.
 
 ---
 
@@ -87,6 +89,7 @@ The insights enable data-driven strategies to optimize **customer satisfaction**
   - Schema design and handling relational datasets.
 - **Power BI**:
   - Creating interactive dashboards with dynamic slicers, filters, and visuals.
+  - **Filter Methodology**: Implemented dynamic filters for deeper, interactive analysis.
 - **Business Analysis**:
   - Translating raw data into actionable insights and recommendations.
 
@@ -106,14 +109,14 @@ The insights enable data-driven strategies to optimize **customer satisfaction**
 2. **Step 2**: Export the cleaned dataset to **CSV format**.
 3. **Step 3**: Import the CSV file into a **SQL database** and run transformation queries.
 4. **Step 4**: Connect Power BI Desktop to the SQL database and design the dashboard.
-5. **Step 5**: Analyze the interactive dashboard to uncover insights.
+5. **Step 5**: Explore data interactively using filters and slicers in Power BI to uncover insights.
 
 ---
 
 ## Tools and Technologies Used
 - **Excel** for data cleaning and normalization.
 - **SQL** for data processing, aggregation, and transformation.
-- **Power BI Desktop** for visualization and dashboard creation.
+- **Power BI Desktop** for visualization and dashboard creation, including **filters** for interactivity.
 
 ---
 
